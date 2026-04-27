@@ -9,33 +9,33 @@ const yourCustomFunction01 = (message) => {
 // IMPORTANT: Extend this map when you add papers 8 through 25.
 const pdfUrlMap = [
     // Existing Papers (1-7)
-    { key: 1, url: "https://gazikabas.netlify.app/files/BKO.pdf" },
-    { key: 2, url: "https://gazikabas.netlify.app/files/KR.pdf" },
-    { key: 3, url: "https://gazikabas.netlify.app/files/ADK.pdf" },
-    { key: 4, url: "https://gazikabas.netlify.app/files/DKO.pdf" },
-    { key: 5, url: "https://gazikabas.netlify.app/files/ADGKK.pdf" }, 
-    { key: 6, url: "https://gazikabas.netlify.app/files/Paper06_MainResults.pdf" }, 
-    { key: 7, url: "https://gazikabas.netlify.app/files/Paper07_MainResults.pdf" },
+    { key: 1, url: "/files/BKO.pdf" },
+    { key: 2, url: "/files/KR.pdf" },
+    { key: 3, url: "/files/ADK.pdf" },
+    { key: 4, url: "/files/DKO.pdf" },
+    { key: 5, url: "/files/ADGKK.pdf" }, 
+    { key: 6, url: "/files/Paper06_MainResults.pdf" }, 
+    { key: 7, url: "/files/Paper07_MainResults.pdf" },
     
     // Placeholder for new papers (ADD 18 MORE PAPERS HERE)
-    { key: 8, url: "https://gazikabas.netlify.app/files/Paper08_MainResults.pdf" }, 
-    { key: 9, url: "https://gazikabas.netlify.app/files/Paper09_MainResults.pdf" },
-    { key: 10, url: "https://gazikabas.netlify.app/files/Paper10_MainResults.pdf" },
-    { key: 11, url: "https://gazikabas.netlify.app/files/Paper11_MainResults.pdf" },
-    { key: 12, url: "https://gazikabas.netlify.app/files/Paper12_MainResults.pdf" },
-    { key: 13, url: "https://gazikabas.netlify.app/files/Paper13_MainResults.pdf" },
-    { key: 14, url: "https://gazikabas.netlify.app/files/Paper14_MainResults.pdf" },
-    { key: 15, url: "https://gazikabas.netlify.app/files/Paper15_MainResults.pdf" },
-    { key: 16, url: "https://gazikabas.netlify.app/files/Paper16_MainResults.pdf" },
-    { key: 17, url: "https://gazikabas.netlify.app/files/Paper17_MainResults.pdf" },
-    { key: 18, url: "https://gazikabas.netlify.app/files/Paper18_MainResults.pdf" },
-    { key: 19, url: "https://gazikabas.netlify.app/files/Paper19_MainResults.pdf" },
-    { key: 20, url: "https://gazikabas.netlify.app/files/Paper20_MainResults.pdf" },
-    { key: 21, url: "https://gazikabas.netlify.app/files/Paper21_MainResults.pdf" },
-    { key: 22, url: "https://gazikabas.netlify.app/files/Paper22_MainResults.pdf" },
-    { key: 23, url: "https://gazikabas.netlify.app/files/Paper23_MainResults.pdf" },
-    { key: 24, url: "https://gazikabas.netlify.app/files/Paper24_MainResults.pdf" },
-    { key: 25, url: "https://gazikabas.netlify.app/files/Paper25_MainResults.pdf" },
+    { key: 8, url: "/files/Paper08_MainResults.pdf" }, 
+    { key: 9, url: "/files/Paper09_MainResults.pdf" },
+    { key: 10, url: "/files/Paper10_MainResults.pdf" },
+    { key: 11, url: "/files/Paper11_MainResults.pdf" },
+    { key: 12, url: "/files/Paper12_MainResults.pdf" },
+    { key: 13, url: "/files/Paper13_MainResults.pdf" },
+    { key: 14, url: "/files/Paper14_MainResults.pdf" },
+    { key: 15, url: "/files/Paper15_MainResults.pdf" },
+    { key: 16, url: "/files/Paper16_MainResults.pdf" },
+    { key: 17, url: "/files/Paper17_MainResults.pdf" },
+    { key: 18, url: "/files/Paper18_MainResults.pdf" },
+    { key: 19, url: "/files/Paper19_MainResults.pdf" },
+    { key: 20, url: "/files/Paper20_MainResults.pdf" },
+    { key: 21, url: "/files/Paper21_MainResults.pdf" },
+    { key: 22, url: "/files/Paper22_MainResults.pdf" },
+    { key: 23, url: "/files/Paper23_MainResults.pdf" },
+    { key: 24, url: "/files/Paper24_MainResults.pdf" },
+    { key: 25, url: "/files/Paper25_MainResults.pdf" },
 ];
 
 // --- Staged Preload Function ---
@@ -479,7 +479,7 @@ let pageNum1 = 1; // Start with the first page
 let pageCount1 = 0; // Total number of pages in the PDF
 
 function loadPDF1() {
-  const url = "https://gazikabas.netlify.app/files/BKO.pdf";
+  const url = "/files/BKO.pdf";
   const pdfViewer = document.getElementById("pdf1");
 
 const renderPage = (num) => {
@@ -646,7 +646,7 @@ let pageNum2 = 1; // Start with the first page
 let pageCount2 = 0; // Total number of pages in the PDF
 
 function loadPDF2() {
-  const url = "https://gazikabas.netlify.app/files/KR.pdf";
+  const url = "/files/KR.pdf";
   const pdfViewer = document.getElementById("pdf2");
 
 const renderPage = (num) => {
@@ -810,7 +810,7 @@ let pageNum3 = 1; // Start with the first page
 let pageCount3 = 0; // Total number of pages in the PDF
 
 function loadPDF3() {
-  const url = "https://gazikabas.netlify.app/files/ADK.pdf";
+  const url = "/files/ADK.pdf";
   const pdfViewer = document.getElementById("pdf3");
 
 const renderPage = (num) => {
@@ -972,7 +972,7 @@ let pageNum4 = 1; // Start with the first page
 let pageCount4 = 0; // Total number of pages in the PDF
 
 function loadPDF4() {
-  const url = "https://gazikabas.netlify.app/files/DKO.pdf";
+  const url = "/files/DKO.pdf";
   const pdfViewer = document.getElementById("pdf4");
 
 const renderPage = (num) => {
@@ -1135,7 +1135,7 @@ let pageNum5 = 1; // Start with the first page
 let pageCount5 = 0; // Total number of pages in the PDF
 
 function loadPDF5() {
-  const url = "https://gazikabas.netlify.app/files/ADGKK.pdf";
+  const url = "/files/ADGKK.pdf";
   const pdfViewer = document.getElementById("pdf5");
 
 const renderPage = (num) => {
@@ -1295,7 +1295,7 @@ let pageNum6 = 1;
 let pageCount6 = 0;
 
 function loadPDF6() {
-  const url = "https://gazikabas.netlify.app/files/UI_ADGKK.pdf"; // Assumed URL based on pdf6() link
+  const url = "/files/UI_ADGKK.pdf"; // Assumed URL based on pdf6() link
   const pdfViewer = document.getElementById("pdf6");
 
 const renderPage = (num) => {
@@ -1442,7 +1442,7 @@ let pageNum7 = 1;
 let pageCount7 = 0;
 
 function loadPDF7() {
-  const url = "https://gazikabas.netlify.app/files/ETS_2.pdf";
+  const url = "/files/ETS_2.pdf";
   const pdfViewer = document.getElementById("pdf7");
 
 const renderPage = (num) => {
