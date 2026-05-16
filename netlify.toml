@@ -11,3 +11,9 @@
   for = "/*"
     [headers.values]
       Access-Control-Allow-Origin = "*"
+
+[[redirects]]
+  from = "/*"
+  to = "https://gkabas.github.io/:splat"
+  status = 302
+  force = true
