@@ -15,5 +15,5 @@
 [[redirects]]
   from = "/*"
   to = "https://gkabas.github.io/:splat"
-  status = 302
+  status = 301
   force = true
